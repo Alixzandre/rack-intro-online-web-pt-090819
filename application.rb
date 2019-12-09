@@ -1,4 +1,4 @@
-class A
+class Application
   def call(env)
     return [ 200, {'Content-Type' => 'text/html'}, pretty_response ]
   end
